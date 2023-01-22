@@ -4,9 +4,6 @@ use PHPMailer\PHPMailer\PHPMailer;
 
 /**
  * Requires the "PHP Email Form" library
- * The "PHP Email Form" library is available only in the pro version of the template
- * The library should be uploaded to: vendor/php-email-form/php-email-form.php
- * For more info and help: https://bootstrapmade.com/php-email-form/
  */
 
 //....Replace contact@example.com with your real receiving email address
@@ -40,41 +37,22 @@ $contact->subject = $_POST['subject'];
   );
   */
 
+  require '../assets/vendor/autoload.php';
+
+  $receiving_email_address = 'fredrick_ochieng@outlook.com';
+  
+  $mail = new PHPMailer;
+  
+  //SMTP settings
+  $mail->isSMTP();
+  $mail->Host = 'smtp.gmail.com';
+  $mail->SMTPAuth = true;
+  $mail->Username = 'flaughters@gmail.com';
+
+
 $contact->add_message($_POST['name'], 'From');
 $contact->add_message($_POST['email'], 'Email');
 $contact->add_message($_POST['message'], 'Message', 10);
 
 echo $contact->send();
-
-
-
-  // require '../assets/vendor/autoload.php';
-
-  // $receiving_email_address = 'fredrick_ochieng@outlook.com';
-  
-  // $mail = new PHPMailer;
-  
-  // //SMTP settings
-  // $mail->isSMTP();
-  // $mail->Host = 'smtp.gmail.com';
-  // $mail->SMTPAuth = true;
-  // $mail->Username = 'flaughters@gmail.com';
-  // $mail->Password = 'MasterDroyd10035';
-  // $mail->SMTPSecure = 'tls';
-  // $mail->Port = 587;
-  
-  // $mail->setFrom($_POST['email'], $_POST['name']);
-  // $mail->addAddress($receiving_email_address, 'Recipient Name');
-  
-  // $mail->isHTML(true);
-  
-  // $mail->Subject = $_POST['subject'];
-  // $mail->Body = $_POST['message'];
-  
-  // if(!$mail->send()) {
-  //     echo 'Message could not be sent.';
-  //     echo 'Mailer Error: ' . $mail->ErrorInfo;
-  // } else {
-  //     echo 'Message has been sent';
-  // }
 ?>
