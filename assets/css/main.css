@@ -164,7 +164,7 @@ section {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  right: 30px;
   bottom: -15px;
   z-index: 99999;
   background: var(--color-secondary);
@@ -188,7 +188,7 @@ section {
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
-  bottom: 15px;
+  bottom: 115px;
 }
 
 /*--------------------------------------------------------------
