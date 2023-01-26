@@ -191,6 +191,22 @@ section {
   bottom: 115px;
 }
 
+
+/*--------------------------------------------------------------
+# trust and security 
+--------------------------------------------------------------*/
+/* .block.block-how-3 {
+  padding: 32px 0;
+}
+
+.marketing .block, .project-promo-content .block {
+
+  font-size: 19.2px;
+
+} */
+
+
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -1343,7 +1359,7 @@ section {
   background: #009d8b;
 }
 
-.portfolio-details .portfolio-description h2 {
+.portfolio-details .portfolio-description  h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
