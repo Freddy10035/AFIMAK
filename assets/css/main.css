@@ -20,7 +20,7 @@
 
 /* Colors */
 :root {
-  --color-default: #393E46;
+  --color-default: #393e46;
   --color-primary: #222831;
   --color-secondary: #f85a40;
 }
@@ -111,8 +111,8 @@ section {
 }
 
 .breadcrumbs .page-header h2 {
-  font-size: 56px;
-  font-weight: 500;
+  font-size: 37px;
+  font-weight: 1000;
   color: #fff;
   font-family: var(--font-secondary);
 }
@@ -191,7 +191,6 @@ section {
   bottom: 115px;
 }
 
-
 /*--------------------------------------------------------------
 # trust and security 
 --------------------------------------------------------------*/
@@ -204,8 +203,6 @@ section {
   font-size: 19.2px;
 
 } */
-
-
 
 /*--------------------------------------------------------------
 # Preloader
@@ -327,7 +324,7 @@ section {
   top: 0;
   right: 0;
   left: 0;
-  height: 70px;
+  height: 50px;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -350,7 +347,7 @@ section {
 }
 
 .sticked-header-offset {
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 section {
@@ -1359,7 +1356,7 @@ section {
   background: #009d8b;
 }
 
-.portfolio-details .portfolio-description  h2 {
+.portfolio-details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1784,7 +1781,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #393E46;
+  background-color: #393e46;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -2070,7 +2067,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #393E46;
+  background: #393e46;
 }
 
 .hero .icon-box:hover .title a,
@@ -2179,8 +2176,12 @@ section {
 --------------------------------------------------------------*/
 .blog .blog-details {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  border-radius: 10px;
+  padding: 50px;
+  /* padding-top: 0px;
+  padding-right: 24px;
+  padding-bottom: 0px;
+  padding-left: 24px;
+  border-radius: 10px; */
 }
 
 .blog .blog-details .post-img {
