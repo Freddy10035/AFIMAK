@@ -2083,6 +2083,10 @@ section {
   color: #555555;
 }
 
+.blog .container {
+  background-color: radial-gradient(circle at 35% 30%, #23B3F1 10%, #1AFF97 100%);
+}
+
 .blog .blog-pagination ul {
   display: flex;
   padding: 0;
