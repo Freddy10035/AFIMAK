@@ -385,7 +385,7 @@ h3 {
 }
 
 .sticked-header-offset {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 section {
@@ -561,7 +561,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background:#393e46;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -607,7 +607,7 @@ section {
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
-    background: rgba(0, 131, 116, 0.8);
+    background: #393e46;
   }
 
   .navbar .dropdown ul,
@@ -617,8 +617,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+    background-color:#393e46;
+    border: 1px solid #2d3036;
   }
 
   .navbar .dropdown > .dropdown-active,
@@ -660,7 +660,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background: rgba(31, 32, 28, 0.8);
     z-index: 9996;
   }
 }
