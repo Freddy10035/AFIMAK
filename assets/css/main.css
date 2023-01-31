@@ -2214,16 +2214,27 @@ section {
 }
 
 /*--------------------------------------------------------------
+# btn Details
+--------------------------------------------------------------*/
+.custom-btn {
+  background-color: #DD0268;
+  border-radius: 12px;
+}
+.custom-btn:hover {
+  background: #01eb34;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------
 # Blog Details
 --------------------------------------------------------------*/
 .blog .blog-details {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   padding: 50px;
-  /* padding-top: 0px;
-  padding-right: 24px;
-  padding-bottom: 0px;
-  padding-left: 24px;
-  border-radius: 10px; */
 }
 
 .blog .blog-details .post-img {
